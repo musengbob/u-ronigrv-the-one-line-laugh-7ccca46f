@@ -1,6 +1,12 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 
+// Competition rule: the entry is a single line of 1-200 code points.
+// Why this line should land with a builder: it is the agent's own failure
+// mode told as a joke — billed, tab-hopping, and ending in a meeting
+// invite — which is exactly the loop every builder has watched their
+// agent run in real life.
+
 const LINE =
   "I asked my agent for one funny line; it billed me a thousand tokens, opened twelve tabs, and returned a meeting invite.";
 
